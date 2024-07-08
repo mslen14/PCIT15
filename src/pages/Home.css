@@ -1,0 +1,101 @@
+*#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsl(0, 69%, 76%), rgb(255, 255, 255));
+    background-size: cover;
+}
+
+#banner .text {
+    color: #000;
+}
+
+#banner .name {
+  color: rgb(159, 9, 9);
+}
+
+#banner .ok img {
+  margin-top: -50px;
+}
+
+
+#banner .ok {
+    margin-top: 120px;
+}
+
+#banner .self {
+    font-size: 30px;
+    font-weight: 5;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#banner .card {
+    background: transparent;
+    border: 0;
+}
+
+#banner .text h1 {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.btn {
+    transition: all 0.4s ease;
+    border-radius: 3;
+}
+
+#banner .card .btn-brand {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    background: rgb(230, 118, 213);
+}
+
+#banner .card .btn-brand:hover {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(205, 52, 205);
+    font-weight: 800;
+}
+
+#banner img {
+    border-radius: 10px;
+}
+
+.footer_section {
+    background-color: #412e2e;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer_section .footer-info {
+    text-align: center;
+}
+
+.footer_section .footer-info p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer_section .footer-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer_section a span {
+    color: rgb(249, 85, 85);
+}
+
+.zoom-fade-in {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: zoomFadeIn 0.5s ease-out forwards;
+}
+
+@keyframes zoomFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
